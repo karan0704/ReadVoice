@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ReadVoice</string>
+    <!-- Written as two words so voice assistants match "open Read Voice". -->
+    <string name="launcher_label">Read Voice</string>
+
+    <string name="login_tagline">Listen to Reddit, hands-free.</string>
+    <string name="login_button">Log in with Reddit</string>
+    <string name="login_note">Your password is entered on reddit.com, never here.</string>
+
+    <string name="tab_inbox">Inbox</string>
+    <string name="tab_private">Private</string>
+    <string name="tab_with_count">%1$s (%2$d)</string>
+    <string name="menu_refresh">Refresh</string>
+    <string name="menu_logout">Log out</string>
+    <string name="action_appearance">Appearance</string>
+    <string name="action_menu">More options</string>
+    <string name="action_back">Back</string>
+    <string name="unread_marker">●</string>
+    <string name="unread_description">Unread</string>
+
+    <string name="type_comment_reply">Comment reply</string>
+    <string name="type_post_reply">Post reply</string>
+    <string name="type_mention">Mention</string>
+    <string name="type_other">Message</string>
+    <string name="type_with_subreddit">%1$s · %2$s</string>
+    <string name="you_prefix">You: %1$s</string>
+
+    <string name="empty_inbox">No replies or mentions yet.</string>
+    <string name="empty_private">No private messages yet.</string>
+    <string name="no_subject">(no subject)</string>
+    <string name="subject_divider">── %1$s ──</string>
+
+    <string name="time_now">now</string>
+    <string name="time_minutes">%1$dm</string>
+    <string name="time_hours">%1$dh</string>
+    <string name="time_days">%1$dd</string>
+    <string name="time_weeks">%1$dw</string>
+    <string name="time_years">%1$dy</string>
+
+    <string name="appearance_title">Appearance</string>
+    <string name="appearance_theme">Theme</string>
+    <string name="theme_black">Black (AMOLED)</string>
+    <string name="theme_white">White (daylight)</string>
+    <string name="theme_follow_phone">Follow phone</string>
+    <string name="appearance_font">Font</string>
+    <string name="font_system">System default</string>
+    <string name="font_serif">Serif</string>
+    <string name="font_monospace">Monospace</string>
+    <string name="font_atkinson">Atkinson Hyperlegible</string>
+    <string name="appearance_text_size">Text size</string>
+    <string name="appearance_preview">Preview</string>
+    <string name="preview_author">u/dev_arjun</string>
+    <string name="preview_label">Comment reply · r/android</string>
+    <string name="preview_body">Have you tried clearing the cache first? That fixed it for me.</string>
+    <string name="preview_time">2h</string>
+
+    <string name="login_change_client_id">Change Reddit client ID</string>
+    <string name="menu_client_id">Reddit client ID</string>
+
+    <string name="setup_title">Set up Reddit access</string>
+    <string name="setup_intro">Reddit asks every app to identify itself with a client ID. You create your own once, for free. It takes about two minutes.</string>
+    <string name="setup_step_open">1. Open Reddit\'s apps page and log in.</string>
+    <string name="setup_open_reddit">Open Reddit apps page</string>
+    <string name="setup_step_create">2. Tap \"create another app…\" and choose the type \"installed app\".</string>
+    <string name="setup_step_name">3. Give it a name. Any name works, for example:</string>
+    <string name="setup_app_name_value">My ReadVoice</string>
+    <string name="setup_step_redirect">4. In \"redirect uri\", enter exactly this:</string>
+    <string name="setup_step_copy_id">5. Tap \"create app\". A short code appears under the app\'s name. Copy it.</string>
+    <string name="setup_step_paste">6. Come back here and paste the code:</string>
+    <string name="setup_client_id_hint">Client ID</string>
+    <string name="setup_copy">Copy</string>
+    <string name="setup_paste">Paste</string>
+    <string name="setup_check">Check with Reddit</string>
+    <string name="setup_save">Save and continue</string>
+    <string name="setup_remove">Remove client ID and log out</string>
+    <string name="setup_copied">Copied</string>
+    <string name="setup_clipboard_empty">Nothing to paste. Copy the code on Reddit first.</string>
+    <string name="setup_status_empty">Paste the code shown under your app\'s name on Reddit.</string>
+    <string name="setup_status_bad_format">That doesn\'t look like a client ID. It is a short code of letters, numbers, \"-\" and \"_\" with no spaces.</string>
+    <string name="setup_status_format_ok">The format looks right. You can check it with Reddit, or save.</string>
+    <string name="setup_status_checking">Checking with Reddit…</string>
+    <string name="setup_status_valid">✓ Reddit recognises this client ID.</string>
+    <string name="setup_status_invalid">✗ Reddit does not accept this client ID. Check the code, and that the app type is \"installed app\".</string>
+    <string name="setup_status_unreachable">Couldn\'t reach Reddit to check. You can still save and try logging in.</string>
+    <string name="setup_note">The check cannot see your redirect URI. If login later shows an error on Reddit\'s page, compare the redirect URI there with step 4. Changing the client ID logs you out.</string>
+
+    <string name="error_network">Can\'t reach Reddit. Check your connection and pull down to retry.</string>
+    <string name="error_rate_limited">Reddit is limiting requests. Wait a minute and try again.</string>
+    <string name="error_server">Reddit refused the request or had a problem. Try again later.</string>
+    <string name="error_invalid_response">Reddit sent an answer the app could not read.</string>
+    <!--
+        Original wording, kept for comparison. The client ID now comes from the setup screen,
+        so both messages point there and name the usual causes of a failed login.
+    <string name="error_auth_rejected">Login was cancelled or could not be verified. Please try again.</string>
+    <string name="error_not_configured">No Reddit client ID is set. Add reddit.clientId to local.properties and rebuild.</string>
+    -->
+    <string name="error_auth_rejected">Login was cancelled or Reddit refused it. If this keeps happening, check that your Reddit app is the \"installed app\" type, that its redirect URI is exactly readvoice://oauth, and that the client ID is right.</string>
+    <string name="error_not_configured">No Reddit client ID is set. Tap \"Change Reddit client ID\" below to set one up.</string>
+    <string name="error_no_browser">No browser was found to open Reddit\'s login page.</string>
+    <string name="error_session_expired">Your session ended. Please log in again.</string>
+</resources>

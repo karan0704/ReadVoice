@@ -1,0 +1,18 @@
+# Holds the Reddit client ID and the local SDK path; never commit it.
+local.properties
+
+# Personal assistant configuration and generated code graphs; they hold
+# machine-specific paths and notes from other projects, so they stay local.
+.claude/
+.agents/
+graphify-out/
+
+.gradle/
+build/
+*.apk
+*.aab
+*.jks
+*.keystore
+.idea/
+*.iml
+captures/

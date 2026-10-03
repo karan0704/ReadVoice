@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="end"
+    android:orientation="vertical"
+    android:paddingStart="@dimen/space_l"
+    android:paddingTop="@dimen/space_xs"
+    android:paddingEnd="@dimen/space_m"
+    android:paddingBottom="@dimen/space_xs">
+
+    <TextView
+        android:id="@+id/bodyText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_bubble_outgoing"
+        android:maxWidth="@dimen/bubble_max_width"
+        android:padding="@dimen/space_s"
+        android:textColor="@color/on_bubble_outgoing"
+        android:textIsSelectable="true"
+        android:textSize="@dimen/text_body" />
+
+    <TextView
+        android:id="@+id/timeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_xs"
+        android:textColor="@color/text_secondary"
+        android:textSize="@dimen/text_label" />
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menuRefresh"
+        android:title="@string/menu_refresh" />
+    <item
+        android:id="@+id/menuClientId"
+        android:title="@string/menu_client_id" />
+    <item
+        android:id="@+id/menuLogout"
+        android:title="@string/menu_logout" />
+</menu>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Text sizes are in sp, so they follow both the phone's font size and the in-app text size setting. -->
+<resources>
+    <dimen name="text_display">28sp</dimen>
+    <dimen name="text_title">20sp</dimen>
+    <dimen name="text_body">15sp</dimen>
+    <dimen name="text_label">12sp</dimen>
+
+    <dimen name="space_xs">4dp</dimen>
+    <dimen name="space_s">8dp</dimen>
+    <dimen name="space_m">16dp</dimen>
+    <dimen name="space_l">32dp</dimen>
+    <!-- Added to the toolbar's 4dp padding, this puts a title on the 16dp gutter when no back button shows. -->
+    <dimen name="space_title_inset">12dp</dimen>
+
+    <dimen name="toolbar_height">56dp</dimen>
+    <dimen name="tab_height">48dp</dimen>
+    <dimen name="touch_target">48dp</dimen>
+    <!-- A radio button's circle is inset 6dp inside its own box; 10dp lands it on the 16dp gutter. -->
+    <dimen name="radio_gutter">10dp</dimen>
+    <dimen name="bubble_max_width">280dp</dimen>
+    <dimen name="corner_radius">12dp</dimen>
+</resources>

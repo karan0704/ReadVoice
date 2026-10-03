@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Black theme: pure black so AMOLED pixels stay off. -->
+<resources>
+    <color name="background">#000000</color>
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#AAAAAA</color>
+    <color name="divider">#333333</color>
+    <color name="bubble_incoming">#1C1C1C</color>
+    <color name="bubble_outgoing">#FFFFFF</color>
+    <color name="on_bubble_incoming">#FFFFFF</color>
+    <color name="on_bubble_outgoing">#000000</color>
+</resources>
